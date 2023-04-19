@@ -107,22 +107,22 @@ const char *evento_3[7][2] = {{"  ▄          ","      .       "},
 
 //aplay -q tests/dataPhoenix/Laser-SoundBible.wav </dev/null >/dev/null 2>&1 &
 //aplay -q tests/dataPhoenix/phoenix_blaster.wav </dev/null >/dev/null 2>&1 &
-const char* sound[16] = {"aplay -q tests/dataPhoenix/Laser-SoundBible.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/ExplosionHeroe.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/phoenix_laser_antimateria.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/Laser_01.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/ufo_launch.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/RedAlert.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/phoenix_inicia_batalla.wav </dev/null >/dev/null 2>&1",
-                        "aplay -q tests/dataPhoenix/phoenix_bono.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/phoenix_transformation.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/phoenix_minimize.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/phoenix_show_score.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/phoenix_mision.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/phoenix_blaster.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/phoenix_balance.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/condicionRed.wav </dev/null >/dev/null 2>&1 &",
-                        "aplay -q tests/dataPhoenix/alive.wav </dev/null >/dev/null 2>&1 &"};
+const char* sound[16] = {"aplay -q dataPhoenix/Laser-SoundBible.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/ExplosionHeroe.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/phoenix_laser_antimateria.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/Laser_01.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/ufo_launch.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/RedAlert.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/phoenix_inicia_batalla.wav </dev/null >/dev/null 2>&1",
+                        "aplay -q dataPhoenix/phoenix_bono.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/phoenix_transformation.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/phoenix_minimize.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/phoenix_show_score.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/phoenix_mision.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/phoenix_blaster.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/phoenix_balance.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/condicionRed.wav </dev/null >/dev/null 2>&1 &",
+                        "aplay -q dataPhoenix/alive.wav </dev/null >/dev/null 2>&1 &"};
 /*
 const char*string_fondo[5] = {"ffplay -nodisp -loglevel -8 -loop 9999 tests/dataPhoenix/phoenix_fondo_1.wav </dev/null >/dev/null 2>&1 &",
                               "ffplay -nodisp -loglevel -8 -loop 9999 tests/dataPhoenix/phoenix_fondo_2.wav </dev/null >/dev/null 2>&1 &",
@@ -130,11 +130,11 @@ const char*string_fondo[5] = {"ffplay -nodisp -loglevel -8 -loop 9999 tests/data
                               "ffplay -nodisp -loglevel -8 -loop 9999 tests/dataPhoenix/phoenix_fondo_3.wav </dev/null >/dev/null 2>&1 &",
                               "ffplay -nodisp -loglevel -8 -loop 9999 tests/dataPhoenix/phoenix_modo_nodriza.wav </dev/null >/dev/null 2>&1 &"};
 */
-const char*string_fondo[5] = {"aplay -q tests/dataPhoenix/phoenix_background_1.wav </dev/null >/dev/null 2>&1 &",
-                              "aplay -q tests/dataPhoenix/phoenix_background_2.wav </dev/null >/dev/null 2>&1 &",
-                              "aplay -q tests/dataPhoenix/phoenix_background_4.wav </dev/null >/dev/null 2>&1 &",
-                              "aplay -q tests/dataPhoenix/phoenix_background_3.wav </dev/null >/dev/null 2>&1 &",
-                              "aplay -q tests/dataPhoenix/phoenix_background_nodriza.wav </dev/null >/dev/null 2>&1 &"};
+const char*string_fondo[5] = {"aplay -q dataPhoenix/phoenix_background_1.wav </dev/null >/dev/null 2>&1 &",
+                              "aplay -q dataPhoenix/phoenix_background_2.wav </dev/null >/dev/null 2>&1 &",
+                              "aplay -q dataPhoenix/phoenix_background_4.wav </dev/null >/dev/null 2>&1 &",
+                              "aplay -q dataPhoenix/phoenix_background_3.wav </dev/null >/dev/null 2>&1 &",
+                              "aplay -q dataPhoenix/phoenix_background_nodriza.wav </dev/null >/dev/null 2>&1 &"};
 // PATHf<-"ffplay -nodisp -loop 9999 "+PATH
 
 void put_heroe( int x, int y);
@@ -732,7 +732,7 @@ int play_mothership(int over_play, int level_ms){
                else if (c==100 || c==103 || c==118){  // d,f,v= pulso PEM debil resetea bombas
                    //if (swetapa<=5){
                        if (ctaPulso){
-                           system("aplay -q tests/dataPhoenix/phoenix_PEM.wav </dev/null >/dev/null 2>&1 &");
+                           system("aplay -q dataPhoenix/phoenix_PEM.wav </dev/null >/dev/null 2>&1 &");
                            PEM_bombas();
                            --ctaPulso;
                            put_PEM();
@@ -1181,7 +1181,7 @@ int play_win(){
                else if (c==100 || c==103 || c==118){  // d,f,v = pulso PEM debil resetea bombas
                    //if (swetapa<=4){
                        if (ctaPulso){
-                           system("aplay -q tests/dataPhoenix/phoenix_PEM.wav </dev/null >/dev/null 2>&1 &");
+                           system("aplay -q dataPhoenix/phoenix_PEM.wav </dev/null >/dev/null 2>&1 &");
                            PEM_bombas();
                            --ctaPulso;
                            put_PEM();
@@ -1880,7 +1880,7 @@ void verify_shoot_protons(){
                         case 1:{ --estado[ j]; break; }
                         case 2:{ --estado[ j];
                             colores[ j ] = 196;
-                            system("aplay -q tests/dataPhoenix/phoenix_alien_tocado.wav </dev/null >/dev/null 2>&1 &");
+                            system("aplay -q dataPhoenix/phoenix_alien_tocado.wav </dev/null >/dev/null 2>&1 &");
                             break; }
                         //case 3:{ --estado[ j];
                         //    colores[ j] = 93; //13;
@@ -2012,7 +2012,7 @@ void put_explosion(int j){
         t = tarda_explosion[ j];
         
         if (t==3){
-           system("aplay -q tests/dataPhoenix/BombExplosion.wav </dev/null >/dev/null 2>&1 &");
+           system("aplay -q dataPhoenix/BombExplosion.wav </dev/null >/dev/null 2>&1 &");
         }
 
         if (t>4){
